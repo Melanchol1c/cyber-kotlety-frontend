@@ -8,7 +8,9 @@
         {
           "id": 0,
           "name": "MOBA"
-        }
+        },
+        { "id": 1, "name": "HARDCORE" },
+        { "id": 2, "name": "COMMAND" }
       ],
       "cover": "./assets/images/Dota 2-188x250.jpg",
       "events": [
