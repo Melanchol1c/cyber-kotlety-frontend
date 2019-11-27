@@ -1,14 +1,16 @@
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
 
 import './App.css';
-import Loader from 'react-loader-spinner';
+
+import AppRouter from './router';
 
 const App: React.FC = () => {
   return (
-    <div className="App">
-      <Loader />
-    </div>
+    <BrowserRouter>
+      <AppRouter />
+    </BrowserRouter>
   );
-}
+};
 
 export default App;
