@@ -10,6 +10,11 @@
     align-items: center;
   }
 
+  .middle-side {
+    margin-right: auto;
+    margin-left: 50px;
+  }
+
   .right-side {
     .user-icon,
     .notification-icon {
@@ -54,6 +59,7 @@
   .search-bar {
     background-color: #3a3a3c;
     border-color: #3a3a3c;
+    width: 350px;
 
     &:focus {
       border-color: var(--color-main);

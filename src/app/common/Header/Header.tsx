@@ -2,7 +2,7 @@ import React from 'react';
 import { Nav, Navbar, Button, Form, FormControl } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserCircle, faBell } from '@fortawesome/free-solid-svg-icons';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 
 import './style.scss';
 
@@ -11,7 +11,9 @@ const Header: React.FC = () => {
     <>
       <Navbar className="header">
         <div className="left-side">
-          <Navbar.Brand href="#home">Cyber Kotlety</Navbar.Brand>
+          <Navbar.Brand href="/">
+            <Link to="/">Cyber Kotlety</Link>
+          </Navbar.Brand>
           <Nav className="mr-auto menu">
             <NavLink exact activeClassName="link_active" className="link" to="/">
               Home
@@ -25,7 +27,7 @@ const Header: React.FC = () => {
           </Nav>
         </div>
         <div className="middle-side">
-          <Form inline>
+          <Form inline className="search-form">
             <FormControl type="text" placeholder="Type event, game, team..." className="mr-sm-2 search-bar" />
             <Button variant="outline-info" className="search-button">
               Search

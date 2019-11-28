@@ -19,8 +19,7 @@ const GamesList: React.FC<Props> = props => {
       {renderList}
       {renderList}
       {renderList}
-      {renderList}
-      {renderList}
+
     </div>
   );
 };
