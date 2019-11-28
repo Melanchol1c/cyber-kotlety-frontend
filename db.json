@@ -143,5 +143,92 @@
         }
       ]
     }
+  ],
+  "slides": [
+    {
+      "title": "The International 2019",
+      "followers": 12000,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, quisquam!",
+      "poster": "./assets/images/ti9-poster.jpeg",
+      "tags": [
+        {
+          "name": "MOBA"
+        },
+        {
+          "name": "MOBA"
+        },
+        {
+          "name": "MOBA"
+        }
+      ]
+    },
+    {
+      "title": "The International 2019",
+      "followers": 12000,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, quisquam!",
+      "poster": "./assets/images/overwatch-poster.jpeg",
+      "tags": [
+        {
+          "name": "MOBA"
+        },
+        {
+          "name": "MOBA"
+        },
+        {
+          "name": "MOBA"
+        }
+      ]
+    },
+    {
+      "title": "The International 2019",
+      "followers": 12000,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, quisquam!",
+      "poster": "./assets/images/WC3-poster.jpg",
+      "tags": [
+        {
+          "name": "MOBA"
+        },
+        {
+          "name": "MOBA"
+        },
+        {
+          "name": "MOBA"
+        }
+      ]
+    },
+    {
+      "title": "The International 2019",
+      "followers": 12000,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, quisquam!",
+      "poster": "./assets/images/cs-go-poster.jpeg",
+      "tags": [
+        {
+          "name": "MOBA"
+        },
+        {
+          "name": "MOBA"
+        },
+        {
+          "name": "MOBA"
+        }
+      ]
+    },
+    {
+      "title": "The International 2019",
+      "followers": 12000,
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, quisquam!",
+      "poster": "./assets/images/ti9-poster.jpeg",
+      "tags": [
+        {
+          "name": "MOBA"
+        },
+        {
+          "name": "MOBA"
+        },
+        {
+          "name": "MOBA"
+        }
+      ]
+    }
   ]
 }

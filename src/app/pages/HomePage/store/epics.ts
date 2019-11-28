@@ -1,8 +1,8 @@
 import { switchMap, catchError, map } from 'rxjs/operators';
 import { of } from 'rxjs';
 
-import { FETCH_GAMES } from './actionTypes';
-import { fetchGamesSuccess, fetchGamesFailure } from './actions';
+import { FETCH_GAMES, FETCH_SLIDES } from './actionTypes';
+import { fetchGamesSuccess, fetchGamesFailure, fetchMainSliderSlidesSuccess } from './actions';
 import { axiosInstance } from '../../../core/services/ApiService';
 
 const fetchGamesEpic = action$ =>
@@ -12,4 +12,11 @@ const fetchGamesEpic = action$ =>
     catchError(() => of(fetchGamesFailure())),
   );
 
-export default [fetchGamesEpic];
+const fetchSlidesEpic = action$ =>
+  action$.ofType(FETCH_SLIDES).pipe(
+    switchMap(() => axiosInstance.get('/slides').pipe(map(response => response.data))),
+    map(fetchMainSliderSlidesSuccess),
+    catchError(() => of(fetchGamesFailure())),
+  );
+
+export default [fetchGamesEpic, fetchSlidesEpic];
