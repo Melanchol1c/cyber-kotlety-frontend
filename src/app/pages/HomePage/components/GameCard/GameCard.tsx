@@ -18,7 +18,11 @@ const GameCard: React.FC<Props> = props => {
 
   return (
     <Card className="game-card">
-      <Card.Img variant="top" src={cover} />
+      <div className="cover-wrapper">
+        <div className="angle-top" />
+        <div className="angle-bottom" />
+        <Card.Img className="cover" variant="top" src={cover} />
+      </div>
       <Card.Body className="game-card-body">
         <Card.Title className="title">{name}</Card.Title>
         <Card.Text className="text">
