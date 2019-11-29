@@ -1,7 +1,16 @@
 import React from 'react';
+import { useSelector } from 'react-redux';
 
-const FutureEvents = () => {
-  return <div>FutureEvents</div>;
+import Events from '../Events/Events';
+
+const FutureEvents: React.FC = () => {
+  const events = useSelector(state => state.gamePage.game.events.filter(event => event));
+
+  return (
+    <div>
+      <Events data={events} />
+    </div>
+  );
 };
 
 export default FutureEvents;
