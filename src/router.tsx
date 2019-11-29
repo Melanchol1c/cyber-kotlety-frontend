@@ -12,7 +12,7 @@ const AppRouter: React.FC = () => {
       <Route exact path="/" component={HomePage} />
       <Route exact path="/feed" component={FeedPage} />
       <Route exact path="/hot-events" component={HotEventsPage} />
-      <Route exact path="/game/:gameId" component={GamePage} />
+      <Route path="/game/:gameId" component={GamePage} />
     </Switch>
   );
 };

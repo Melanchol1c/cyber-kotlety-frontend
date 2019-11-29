@@ -29,14 +29,14 @@ const Header: React.FC = () => {
         <div className="middle-side">
           <Form inline className="search-form">
             <FormControl type="text" placeholder="Type event, game, team..." className="mr-sm-2 search-bar" />
-            <Button variant="outline-info" className="search-button">
+            <Button variant="outline-info" className="outline-btn">
               Search
             </Button>
           </Form>
         </div>
         <div className="right-side">
           <FontAwesomeIcon icon={faBell} className="notification-icon" />
-          <Button variant="outline-info" className="create-event-btn">
+          <Button variant="outline-info" className="create-event-btn full-btn">
             Create event
           </Button>
           <FontAwesomeIcon icon={faUserCircle} className="user-icon" />

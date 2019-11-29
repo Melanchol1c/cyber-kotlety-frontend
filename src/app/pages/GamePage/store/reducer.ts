@@ -2,7 +2,7 @@ import { FETCH_GAME, FETCH_GAME_SUCCESS, FETCH_GAME_FAILURE } from './actionType
 
 const initialState = {
   game: {},
-  loading: false,
+  loading: true,
   error: null,
 };
 

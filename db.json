@@ -4,6 +4,7 @@
       "id": 0,
       "name": "Dota 2",
       "followers": 20234,
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, adipisci. Voluptate fugit eos possimus alias voluptates qui, impedit aliquid quod ad architecto perferendis perspiciatis ratione sit esse molestiae dignissimos vero.Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nisi fuga quae provident necessitatibus natus sapiente quibusdam facilis molestias enim?",
       "categories": [
         {
           "id": 0,
@@ -12,7 +13,7 @@
         { "id": 1, "name": "HARDCORE" },
         { "id": 2, "name": "COMMAND" }
       ],
-      "cover": "./assets/images/Dota 2-188x250.jpg",
+      "cover": "/assets/images/Dota 2-188x250.jpg",
       "events": [
         {
           "id": 0,
@@ -53,13 +54,14 @@
       "id": 1,
       "name": "World of Warcraft",
       "followers": 20234,
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, adipisci. Voluptate fugit eos possimus alias voluptates qui, impedit aliquid quod ad architecto perferendis perspiciatis ratione sit esse molestiae dignissimos vero.Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nisi fuga quae provident necessitatibus natus sapiente quibusdam facilis molestias enim?",
       "categories": [
         {
           "id": 1,
           "name": "MMORPG"
         }
       ],
-      "cover": "./assets/images/World of Warcraft-188x250.jpg",
+      "cover": "/assets/images/World of Warcraft-188x250.jpg",
       "events": [
         {
           "id": 0,
@@ -100,13 +102,14 @@
       "id": 2,
       "name": "Warcraft III: The Frozen Throne",
       "followers": 20234,
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, adipisci. Voluptate fugit eos possimus alias voluptates qui, impedit aliquid quod ad architecto perferendis perspiciatis ratione sit esse molestiae dignissimos vero.Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nisi fuga quae provident necessitatibus natus sapiente quibusdam facilis molestias enim?",
       "categories": [
         {
           "id": 2,
           "name": "Strategy"
         }
       ],
-      "cover": "./assets/images/Warcraft III_ The Frozen Throne-188x250.jpg",
+      "cover": "/assets/images/Warcraft III_ The Frozen Throne-188x250.jpg",
       "events": [
         {
           "id": 0,
@@ -149,7 +152,7 @@
       "title": "The International 2019",
       "followers": 12000,
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, quisquam!",
-      "poster": "./assets/images/ti9-poster.jpeg",
+      "poster": "/assets/images/ti9-poster.jpeg",
       "tags": [
         {
           "name": "MOBA"
@@ -166,7 +169,7 @@
       "title": "The International 2019",
       "followers": 12000,
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, quisquam!",
-      "poster": "./assets/images/overwatch-poster.jpeg",
+      "poster": "/assets/images/overwatch-poster.jpeg",
       "tags": [
         {
           "name": "MOBA"
@@ -183,7 +186,7 @@
       "title": "The International 2019",
       "followers": 12000,
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, quisquam!",
-      "poster": "./assets/images/WC3-poster.jpg",
+      "poster": "/assets/images/WC3-poster.jpg",
       "tags": [
         {
           "name": "MOBA"
@@ -200,7 +203,7 @@
       "title": "The International 2019",
       "followers": 12000,
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, quisquam!",
-      "poster": "./assets/images/cs-go-poster.jpeg",
+      "poster": "/assets/images/cs-go-poster.jpeg",
       "tags": [
         {
           "name": "MOBA"
@@ -217,7 +220,7 @@
       "title": "The International 2019",
       "followers": 12000,
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, quisquam!",
-      "poster": "./assets/images/ti9-poster.jpeg",
+      "poster": "/assets/images/ti9-poster.jpeg",
       "tags": [
         {
           "name": "MOBA"

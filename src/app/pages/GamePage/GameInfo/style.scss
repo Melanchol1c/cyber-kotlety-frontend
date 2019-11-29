@@ -1,0 +1,60 @@
+.info-wrapper {
+  display: flex;
+  flex-direction: row;
+
+  .cover {
+    margin-right: 30px;
+  }
+
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+  }
+
+  .followers-count {
+    font-weight: bold;
+    margin-left: 5px;
+  }
+
+  .info {
+    font-size: 18px;
+    position: relative;
+  }
+
+  .meta-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .followers-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .dot {
+    font-size: 12px;
+    margin: 0 12px 0 15px;
+  }
+
+  p {
+    font-size: 14px;
+    color: #adadb8;
+    margin-top: 10px;
+  }
+
+  .follow-button {
+    padding: 5px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 0;
+    position: absolute;
+    bottom: 20px;
+
+    .follow-icon {
+      margin-right: 5px;
+    }
+  }
+}

@@ -45,25 +45,8 @@
     color: var(--color-white) !important;
   }
 
-  .search-button {
-    border-color: var(--color-main) !important;
-
-    &:hover,
-    &:active,
-    &:focus {
-      background-color: var(--color-main) !important;
-      box-shadow: none;
-    }
-  }
-
   .search-bar {
-    background-color: #3a3a3c;
-    border-color: #3a3a3c;
     width: 350px;
-
-    &:focus {
-      border-color: var(--color-main);
-    }
   }
 
   .menu {
@@ -78,22 +61,12 @@
       padding-top: 13px;
 
       &_active {
-        border-bottom: 1px solid var(--color-main);
+        border-bottom: 2px solid var(--color-main);
       }
 
       &:hover {
         text-decoration: none;
       }
-    }
-  }
-
-  .create-event-btn {
-    margin: 0 10px;
-    background-color: var(--color-main);
-    border-color: var(--color-main);
-
-    &:hover {
-      background-color: var(--color-main-lighter);
     }
   }
 }

@@ -22,7 +22,13 @@ const HomePage: React.FC = () => {
 
   const renderGamesList = games.length > 0 && <GamesList games={games} />;
 
-  const renderGamesListWithLoading = loading ? <DataLoader /> : renderGamesList;
+  const renderGamesListWithLoading = loading ? (
+    <div className="loader-wrapper">
+      <DataLoader />
+    </div>
+  ) : (
+    renderGamesList
+  );
 
   return (
     <div className="content">

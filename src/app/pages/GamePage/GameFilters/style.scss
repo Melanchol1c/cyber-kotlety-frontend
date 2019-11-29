@@ -1,0 +1,14 @@
+.filters-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  .filter-select {
+    height: 30px;
+    width: 250px;
+    margin-left: 30px;
+    border: 1px dashed;
+    border-radius: 5px;
+    color: white;
+  }
+}

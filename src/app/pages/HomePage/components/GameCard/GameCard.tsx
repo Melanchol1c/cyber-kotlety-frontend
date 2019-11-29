@@ -27,10 +27,10 @@ const GameCard: React.FC<Props> = props => {
         </div>
         <Card.Body className="game-card-body">
           <Card.Title className="title">{name}</Card.Title>
-          <Card.Text className="text">
+          <div className="text">
             {followers} followers
             <div className="categories">{renderCategories}</div>
-          </Card.Text>
+          </div>
         </Card.Body>
       </Card>
     </Link>

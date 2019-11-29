@@ -1,0 +1,20 @@
+.game-tabs {
+  margin: 20px 0;
+
+  .tab {
+    padding: 13px 0.5rem 0 0.5rem;
+    height: 50px;
+    padding-top: 13px;
+    font-size: 18px;
+    font-weight: bold;
+
+    &_active {
+      border-bottom: 2px solid var(--color-main);
+      color: var(--color-main);
+    }
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
