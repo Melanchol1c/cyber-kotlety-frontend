@@ -23,6 +23,7 @@
           "startDate": "15.09.2019",
           "finishDate": "25.09.2019",
           "organizer": "Valve",
+          "background": "/assets/images/ti9-bg.jpg",
           "teamsCount": 18,
           "prize": "34330068",
           "news": [
@@ -50,14 +51,15 @@
           "winner": ""
         },
         {
-          "id": 0,
+          "id": 1,
           "active": false,
-          "title": "The International 2019",
+          "title": "DREAMHACK BRINGS DOTA 2 MAJOR TO STOCKHOLM,",
           "isVerified": true,
-          "startDate": "15.09.2020",
-          "finishDate": "25.09.2020",
-          "organizer": "Valve",
+          "startDate": "22.03.2020",
+          "finishDate": "24.03.2020",
+          "organizer": "CORSAIR, Monster Energy",
           "teamsCount": 18,
+          "background": "/assets/images/dream-bg.jpeg",
           "prize": "34330068",
           "news": [
             {
@@ -84,14 +86,15 @@
           "winner": ""
         },
         {
-          "id": 0,
+          "id": 2,
           "active": false,
-          "title": "The International 2019",
+          "title": "EPOCENTER 2019",
           "isVerified": true,
           "startDate": "15.09.2019",
           "finishDate": "25.09.2019",
-          "organizer": "Valve",
+          "organizer": "Epic Esports Events",
           "teamsCount": 18,
+          "background": "/assets/images/epicenter-bg.png",
           "prize": "34330068",
           "news": [
             {
@@ -140,6 +143,7 @@
           "startDate": "15.09.2019",
           "finishDate": "25.09.2019",
           "organizer": "Valve",
+          "background": "/assets/images/ti9-bg.jpg",
           "teamsCount": 18,
           "prize": "34330068",
           "news": [
@@ -482,11 +486,12 @@
     {
       "id": 1,
       "active": false,
-      "title": "The International 2019",
+      "title": "DREAMHACK BRINGS DOTA 2 MAJOR TO STOCKHOLM",
       "isVerified": true,
-      "startDate": "15.09.2020",
-      "finishDate": "25.09.2020",
-      "organizer": "Valve",
+      "startDate": "22.03.2020",
+      "finishDate": "22.03.2020",
+      "background": "/assets/images/dream-bg.jpeg",
+      "organizer": "CORSAIR, Monster Energy",
       "stage": "Wild Card",
       "teamsCount": 18,
       "location": "Asia",
@@ -518,13 +523,14 @@
     {
       "id": 2,
       "active": false,
-      "title": "The International 2019",
+      "title": "EPICENTER 2019",
       "isVerified": true,
       "startDate": "15.09.2019",
       "finishDate": "25.09.2019",
       "location": "Asia",
       "stage": "Group",
-      "organizer": "Valve",
+      "background": "/assets/images/epicenter-bg.png",
+      "organizer": "Epic Esports Events",
       "teamsCount": 18,
       "prize": "34.330.068",
       "news": [

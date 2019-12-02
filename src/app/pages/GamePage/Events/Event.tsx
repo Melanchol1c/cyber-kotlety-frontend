@@ -3,7 +3,7 @@ import { Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 const Event = props => {
-  const { id, title, isVerified, teamsCount, organizer, prize } = props;
+  const { id, title, isVerified, teamsCount, organizer, prize, background } = props;
 
   const renderVerified = isVerified ? (
     <div className="badge badge-success">verified</div>
@@ -14,8 +14,8 @@ const Event = props => {
   return (
     <Card key={id} className="event">
       <Link to={`/event/${id}`}>
-        <Card.Img variant="top" src="holder.js/100px180" />
-        <Card.Body>
+        <Card.Img variant="top" src={background} />
+        <Card.Body className="event-body">
           <Card.Title className="event-title">
             {title} {renderVerified}
           </Card.Title>

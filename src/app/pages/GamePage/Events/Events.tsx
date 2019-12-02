@@ -9,18 +9,7 @@ const Events = props => {
 
   const renderEvents = data && data.map((event, i) => <Event key={i} {...event} />);
 
-  return (
-    <div className="events-wrapper">
-      {renderEvents}
-      {renderEvents}
-      {renderEvents}
-      {renderEvents}
-      {renderEvents}
-      {renderEvents}
-      {renderEvents}
-      {renderEvents}
-    </div>
-  );
+  return <div className="events-wrapper">{renderEvents}</div>;
 };
 
 export default Events;

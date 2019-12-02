@@ -25,17 +25,17 @@ const EventPage = () => {
     <div className="event-wrapper">
       <div className="event-bg" style={{ backgroundImage: `url(${background})` }} />
       <div className="event-content">
-        <div className="head">
-          <div className="date">
-            {startDate} - {finishDate}
-          </div>
-          <h1>{title}</h1>
-          <div className="prize">
-            <b>{prize}$</b> • <b>{teamsCount}</b> Participants
-          </div>
-        </div>
-
         <div className="container">
+          <div className="head">
+            <div className="date">
+              {startDate} - {finishDate}
+            </div>
+            <h1>{title}</h1>
+            <div className="prize">
+              <b>{prize}$</b> • <b>{teamsCount}</b> Participants
+            </div>
+          </div>
+
           <EventTabs />
           <div className="main-content container-fluid">
             <EventPageRouting />

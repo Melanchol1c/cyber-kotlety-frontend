@@ -7,6 +7,13 @@
     margin: 5px 10px;
     background-color: transparent;
 
+    &-body {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 170px;
+    }
+
     img {
       width: 100%;
       height: 165px;
@@ -19,7 +26,7 @@
     .badge {
       font-size: 11px;
       position: absolute;
-      top: -10px;
+      top: -16px;
       right: -20px;
     }
 

@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux';
 import './style.scss';
 
 const EventInfo = () => {
-  const { title, startDate, location, finishDate, stage, prize, teamsCount } = useSelector(
+  const { title, startDate, location, finishDate, stage, prize, organizer } = useSelector(
     state => state.eventPage.event,
   );
 
@@ -18,6 +18,9 @@ const EventInfo = () => {
         </div>
         <div className="text">
           <b>{title}</b>
+        </div>
+        <div className="text">
+          Organizer: <b>{organizer}</b>
         </div>
         <div className="text">
           Dates:{' '}

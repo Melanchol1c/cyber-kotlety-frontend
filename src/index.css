@@ -12,7 +12,7 @@
 }
 
 body {
-  height: 100vw;
+  height: 100vh;
   background-color: var(--color-background) !important;
   color: var(--color-white) !important;
   margin: 0;

@@ -10,7 +10,6 @@ const config = {
   focusOnSelect: true,
   dots: false,
   infinite: true,
-  centerPadding: '100px',
 };
 
 interface Props {

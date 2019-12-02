@@ -16,7 +16,7 @@ const Header: React.FC = () => {
           </Navbar.Brand>
           <Nav className="mr-auto menu">
             <NavLink exact activeClassName="link_active" className="link" to="/">
-              Home
+              Games
             </NavLink>
             <NavLink activeClassName="link_active" className="link" to="/feed">
               Feed
