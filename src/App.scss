@@ -25,6 +25,7 @@ select {
   background-color: #3a3a3c !important;
   border-color: #3a3a3c !important;
   box-shadow: none;
+  color: white !important;
 
   &:focus {
     border-color: var(--color-main) !important;
@@ -42,6 +43,7 @@ select {
 .outline-btn {
   border-color: var(--color-main) !important;
   cursor: pointer;
+  color: white;
 
   &:hover,
   &:active,
@@ -49,6 +51,7 @@ select {
     background-color: var(--color-main) !important;
     box-shadow: none;
     border-color: var(--color-main);
+    color: white;
   }
 }
 
@@ -62,5 +65,25 @@ select {
   &:focus {
     background-color: var(--color-main-lighter) !important;
     border-color: var(--color-main) !important;
+  }
+}
+
+.auth-form-wrapper {
+  display: flex;
+  justify-content: center;
+  height: calc(100vh - 60px);
+  align-items: center;
+
+  input {
+    margin-bottom: 10px;
+  }
+
+  button {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .auth-form-title {
+    margin-bottom: 40px;
   }
 }

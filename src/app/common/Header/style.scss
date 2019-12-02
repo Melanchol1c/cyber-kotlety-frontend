@@ -16,8 +16,7 @@
   }
 
   .right-side {
-    .user-icon,
-    .notification-icon {
+    .user-icon {
       border: 2px solid transparent;
       border-radius: 50%;
       transition: all var(--animation-transition);
@@ -38,6 +37,12 @@
       cursor: pointer;
       width: 20px;
       height: 20px;
+    }
+
+    .auth-btns {
+      .btn {
+        margin: 0 2px;
+      }
     }
   }
 

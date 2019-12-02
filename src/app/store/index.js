@@ -4,14 +4,16 @@ import { createEpicMiddleware, combineEpics } from 'redux-observable';
 import { default as homePage } from '../pages/HomePage/store/reducer';
 import { default as gamePage } from '../pages/GamePage/store/reducer';
 import { default as eventPage } from '../pages/EventPage/store/reducer';
+import { default as auth } from '../pages/Auth/store/reducer';
 
 import homeEpics from '../pages/HomePage/store/epics';
 import gameEpics from '../pages/GamePage/store/epics';
 import eventEpics from '../pages/EventPage/store/epics';
+import authEpics from '../pages/Auth/store/epics';
 
-const rootReducer = combineReducers({ homePage, gamePage, eventPage });
+const rootReducer = combineReducers({ homePage, gamePage, eventPage, auth });
 
-const rootEpic = combineEpics(...homeEpics, ...gameEpics, ...eventEpics);
+const rootEpic = combineEpics(...homeEpics, ...gameEpics, ...eventEpics, ...authEpics);
 
 const epicMiddleware = createEpicMiddleware();
 
