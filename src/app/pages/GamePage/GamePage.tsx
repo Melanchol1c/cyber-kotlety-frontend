@@ -22,9 +22,7 @@ const GamePage = () => {
   }, [dispatch, gameId]);
 
   const renderContent = loading ? (
-    <div className="loader-wrapper">
-      <DataLoader />
-    </div>
+    <DataLoader />
   ) : (
     <>
       <GameInfo game={game} />

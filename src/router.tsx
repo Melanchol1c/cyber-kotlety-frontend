@@ -3,16 +3,18 @@ import { Switch, Route } from 'react-router-dom';
 
 import HomePage from './app/pages/HomePage/HomePage';
 import FeedPage from './app/pages/FeedPage/FeedPage';
-import HotEventsPage from './app/pages/HotEventsPage/HotEventsPage';
+import Calendar from './app/pages/Calendar/Calendar';
 import GamePage from './app/pages/GamePage/GamePage';
+import EventPage from 'app/pages/EventPage/EventPage';
 
 const AppRouter: React.FC = () => {
   return (
     <Switch>
       <Route exact path="/" component={HomePage} />
       <Route exact path="/feed" component={FeedPage} />
-      <Route exact path="/hot-events" component={HotEventsPage} />
+      <Route exact path="/calendar" component={Calendar} />
       <Route path="/game/:gameId" component={GamePage} />
+      <Route path="/event/:eventId" component={EventPage} />
     </Switch>
   );
 };

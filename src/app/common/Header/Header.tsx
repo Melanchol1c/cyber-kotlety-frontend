@@ -21,14 +21,18 @@ const Header: React.FC = () => {
             <NavLink activeClassName="link_active" className="link" to="/feed">
               Feed
             </NavLink>
-            <NavLink activeClassName="link_active" className="link" to="/hot-events">
-              Hot Events
+            <NavLink activeClassName="link_active" className="link" to="/calendar">
+              Calendar
             </NavLink>
           </Nav>
         </div>
         <div className="middle-side">
           <Form inline className="search-form">
-            <FormControl type="text" placeholder="Type event, game, team..." className="mr-sm-2 search-bar" />
+            <FormControl
+              type="text"
+              placeholder="Type tournament, event, game, team..."
+              className="mr-sm-2 search-bar"
+            />
             <Button variant="outline-info" className="outline-btn">
               Search
             </Button>

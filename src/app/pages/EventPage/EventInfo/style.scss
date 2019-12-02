@@ -1,0 +1,43 @@
+.info-card {
+  background: rgba(0, 0, 0, 0.3);
+  min-height: 150px;
+  padding: 15px;
+
+  .stage {
+    display: inline-block;
+    padding: 2px 5px;
+    border: 2px dotted var(--color-main);
+    border-radius: 10px;
+    margin-left: 30px;
+  }
+
+  .head-title {
+    font-size: 22px;
+  }
+
+  .text {
+    font-size: 16px;
+  }
+
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  .teams {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .team {
+      margin: 0 10px;
+
+      img {
+        height: 60px;
+        margin-right: 20px;
+      }
+
+      padding: 10px;
+    }
+  }
+}
